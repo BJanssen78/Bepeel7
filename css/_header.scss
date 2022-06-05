@@ -1,0 +1,9 @@
+// Header settings
+#header{
+    background-color: $headerBgClr;
+    color: $headerFontClr;
+    h1{
+        text-shadow: 2px 2px $headerShadow;
+        padding: 0 0 10px 0;
+    }
+}

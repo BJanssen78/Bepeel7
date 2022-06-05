@@ -1,0 +1,25 @@
+#navigatie{
+    ul{
+        list-style: none;
+        font-size: 1.5em;
+        margin:0 0 10px 0;
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 0 10px;
+            background-color: $navBtnBg;
+            
+            a{
+                list-style: none;
+                text-decoration: none;
+                display: inline-block;
+                padding: 0 10px;
+                border:1px solid black;
+                color: $navFontClr;
+                &:hover{
+                    background-color: $navBgHover;
+                }
+            }
+        }
+    }
+}
